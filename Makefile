@@ -1,7 +1,7 @@
 CXXFLAGS = -std=c++20 -O2 -Wall
 SRCS = *.cpp *.h
 LIBRARY_SOURCES := $(filter-out main.cpp, $(SRCS))
-OPENCV_DIR = /home/shirika/Libs/opencv
+OPENCV_DIR = <opencv_dir>/opencv
 INCLUDES = -I$(OPENCV_DIR)/include/opencv4
 LDFLAGS = -L$(OPENCV_DIR)/lib64 \
           -Wl,-rpath,$(OPENCV_DIR)/lib64
