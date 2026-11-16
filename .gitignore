@@ -1,0 +1,11 @@
+/target
+*.so
+*.a
+*.0
+*.gch
+main
+tmp.txt
+
+*.png
+images/*
+buid/
