@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 #set(CMAKE_FIND_LIBRARY_SUFFIXES ".a")
 set(BUILD_SHARED_LIBS OFF)
 #set(CMAKE_EXE_LINKER_FLAGS "-static")
-set(OpenCV_DIR "/home/shirika/Libs/opencv/lib64/cmake/opencv4") 
+set(OpenCV_DIR "<opencv_dir>/lib64/cmake/opencv4") 
 file(GLOB SOURCE_FILE
 	"*.cpp"
 	"*.h"
